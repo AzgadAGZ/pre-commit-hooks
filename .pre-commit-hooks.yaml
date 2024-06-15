@@ -23,9 +23,9 @@
   pass_filenames: false
 
 - id: terramate-create
-  name: Terramate fmt
+  name: Terramate create
   description: |
-    The terramate generate command is used to format Terramate configuration
+    The terramate generate command is used to create Terramate stacks
     code.
   entry: hooks/terramate/create.sh
   language: script
